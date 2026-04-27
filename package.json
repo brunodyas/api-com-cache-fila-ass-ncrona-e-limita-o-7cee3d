@@ -1,0 +1,13 @@
+{
+  "name": "djenus-nodejs-api-com-cache-fila-ass-ncrona-e-li",
+  "version": "0.1.0",
+  "description": "Servi\u00e7o HTTP com endpoints de neg\u00f3cio, camada de cache (in-memory ou interface para Redis), enfileiramento de trabalhos ass\u00edncronos e rate limiting por cliente \u2014 desafios de consist\u00eancia e backpressure.",
+  "type": "module",
+  "bin": {
+    "djenus-nodejs-api-com-cache-fila-ass-ncrona-e-li": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test"
+  }
+}
